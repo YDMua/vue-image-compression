@@ -1,0 +1,25 @@
+{
+  "name": "image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "edon-service start -m stage",
+    "build": "edon-service build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "edon-service": "1.0.7-beta.3",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7"
+  }
+}
